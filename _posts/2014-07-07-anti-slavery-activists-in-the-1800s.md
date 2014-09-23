@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: "Anti-Slavery Activists in the 1800s"
+title: Intro
 listed: true
 sponsored: false
 comments: false
