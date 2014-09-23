@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: "Anti-Slavery Activists in the 1800s"
-listed: false
+listed: true
 sponsored: false
 comments: false
 basemap: orbitist.ina586ah
