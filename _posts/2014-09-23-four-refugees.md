@@ -8,10 +8,12 @@ comments: false
 basemap: orbitist.ie90k9cc
 description: A synopsis of two stories
 author: dshepard
-latitude: "0"
-longitude: "0"
-zoom: "4"
+latitude: "42.293564192170095"
+longitude: "-79.365234375"
+zoom: "9"
 maxZoom: "22"
+customjs: "http://orbitist.s3.amazonaws.com/2014/07-ugrr/custom.js"
+image: "http://orbitist.s3.amazonaws.com/2014/07-ugrr/ugrr.jpg"
 ---
 
 The determination of the Underground Railroad (UGRR) operatives in western New York was greatly intensified by the plight of four refugees in particular: Joseph, Mary, and James Norton about 1844, and Harrison Williams in 1851. Furthermore, while the Norton case [add link to full story here] appears to have been an example of abolitionists taunting slaveholders, the Williams case [add link to full story here] was a clear example of slaveholders’ retribution.
