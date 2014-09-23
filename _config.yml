@@ -32,6 +32,18 @@ authors:
     web: http://www.nicholasgunner.com
     twitter: nicholas_gunner
     github: ngunner
+  dshepard:
+    name: Douglas H. Shepard
+    display_name: Doug Shepard
+    bio: UGRR Researcher based in Fredonia, NY
+    image: http://www.fredonia.edu/department/english/images/dougshepard.jpg
+    email: wshepard@netsync.net
+  wstraight:
+    name: Wendy Straight
+    display_name: Wendy Straight
+    bio: UGRR Researcher based in Fredonia, NY
+    image: https://www.fig.net/pub/tf/unrep/200003/Image116.gif
+    email: wendy@netsync.net
 
   
 timezone : America/New_York
