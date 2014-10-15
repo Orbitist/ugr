@@ -10,7 +10,7 @@
 <div id="sidr">
   <a href="{{ site.baseurl }}"><div class="orbitist">{{ site.title }}</div></a>
   <ul>
-  	{% for post in site.posts limit: 10 %}
+  	{% for post in site.posts reversed limit: 10 %}
   	{% if post.listed %}
   	{% if post.sponsored %}
 		<div class="sponsoredsidr">

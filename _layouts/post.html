@@ -34,7 +34,10 @@ layout: default
 		{% assign author = site.authors[page.author] %}
       	{% if author %}   
  		<div class="author">By <a href="http://www.twitter.com/{{ author.twitter }}">{{ author.name }}{% endif %}</a></div>
+ 		
 		{{ content }}
+		
+		
 	<!-- Sharers -->
 		<div class="sharers">
 			<a href="http://twitter.com/share?url={{ site.baseurl }}{{ page.url }}&text={{ page.title }}" target="_blank"><span class="fa fa-twitter"></span></a>&nbsp;<a href="http://www.facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}" target="_blank""><span class="fa fa-facebook-square"></span></a>

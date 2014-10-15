@@ -2,8 +2,8 @@
 <html lang="en">
 	<head>
 	<meta charset="utf-8">
-    	<title>Orbitist | Talkie Test</title>
-    	<meta name="description" content="This is a test of Talkie!">
+    	<title>UGRR Orbitist | Intro</title>
+    	
     	<meta name="author" content="Orbitist Support">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     	
@@ -12,12 +12,12 @@
 	<meta name="twitter:site" content="@TheOrbitist">
 	
 	<meta name="twitter:creator" content="@nicholas_gunner">
-	<meta name="twitter:title" content="Talkie Test">
-	<meta name="twitter:description" content="This is a test of Talkie!">
-	<meta name="twitter:image:src" content="">
+	<meta name="twitter:title" content="Intro">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:image:src" content="http://orbitist.s3.amazonaws.com/2014/07-ugrr/ugrr.jpg">
     
 	<!-- Shortcut icon -->
-	<link rel="shortcut icon" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/orbitist.png">
+	<link rel="shortcut icon" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
 	<!-- Apple icon -->
 	<link rel="apple-touch-icon" sizes="152x152" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/touch-icon-ipad-retina.png">
 	
@@ -25,8 +25,10 @@
 	<!-- jQuery -->
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	
-	<!-- Mapbox CSS and JS -->
+	<!-- Mapbox JS -->
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+	
+	<!-- Mapbox CSS -->
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
 	
 
@@ -51,9 +53,11 @@
     	<link rel="stylesheet" href="/plugins/leaflet-markercluster/dist/MarkerCluster.Default.css">
     	<script src="/plugins/leaflet-markercluster/dist/leaflet.markercluster-src.js"></script>
     	
-    	<!-- D3 and talkie -->
-    	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-		<script src="http://kiln.it/talkie-1.min.js" charset="utf-8"></script>
+<!-- Talkie -->
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://kiln.it/talkie-1.min.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="http://kiln.it/talkie/ui/1.0/talkie.css">
+<script src="/plugins/talkie/talkie-leaflet.js" charset="utf-8"></script>
 		
 		<!-- Lightbox -->
 		<script src="/plugins/lightbox/js/lightbox.min.js"></script>
@@ -87,11 +91,11 @@
 	<div class="topstory">
 		<div class="topstorytext">
 			
-			<div class="topstorytitle">Talkie Test</div><!-- topstorytitle -->
-			<div class="topstorydescription">This is a test of Talkie!</div><!-- topstorydescription -->
+			<div class="topstorytitle">Intro</div><!-- topstorytitle -->
+			<div class="topstorydescription"></div><!-- topstorydescription -->
 		</div><!-- topstorytext -->
 		<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
-		<img class="img-responsive" src="">
+		<img class="img-responsive" src="http://orbitist.s3.amazonaws.com/2014/07-ugrr/ugrr.jpg">
 	</div><!-- topstory -->
 	
 	<div class="sidebarcontent">
@@ -99,16 +103,43 @@
 		
       	   
  		<div class="author">By <a href="http://www.twitter.com/nicholas_gunner">Nicholas Gunner</a></div>
-		<div id="controls">
-<audio id="soundtrack" controls="controls">
-<source src="http://orbitist.s3.amazonaws.com/2014/07-talkie-test/Talkie%20Test.ogg" type="audio/ogg" />
-<source src="http://orbitist.s3.amazonaws.com/2014/07-talkie-test/Talkie%20Test.mp3" type="audio/mpeg" />
-</audio>
-</div>
+ 		
+		<p>This map is due to the hard work of Doug Shepard and Wendy Straight. They are super dedicated to compiling the most complete and accurate record of anti-slavery activists and Underground Railroad activities in Western New York and beyond.</p>
 
+<p>This map reflects ever-expanding research based in Fredonia, NY <i onclick="map.setView( [42.45164467991628, -79.33897018432617], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+.</p>
+
+<p>According to Wendy:</p>
+
+<p>“When conducting research into Chautauqua County’s Underground Railroad and America’s anti-slavery movement, one does not look for mythical tunnels, hidden rooms, or rings of trees.  Instead, the work is centered upon the people involved– most of them native New Englanders and free African Americans. Together they built a vast and well populated network of activists, some working publically (above ground) and others behind the scenes (the “underground”). Some did both.</p>
+
+<p>One major source for such research is the collection of Judge Elial T. Foote’s <i onclick="map.setView( [42.096745671841, -79.235243790603], 17, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+ historical papers (<a href="http://www.mcclurgmuseum.org/collection/archives/elial_t_foote_papers/elial_t_foote_papers.html">the Foote papers</a>). Although he lived in Chautauqua County for a very short time, he was a major player in the anti-slavery movement, and he kept lists of and correspondence from his colleagues in this county and elsewhere. </p>
+
+<p>Another source is the contributions list of Underground Railroad conductor Benjamin Vincent <i onclick="map.setView( [42.348400000000, -79.135600000000], 17, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, who kept a file of his neighbors who had donated clothing for refugees.</p>
+
+<p>Yet another source is the memoir of Underground Railroad conductor Eber Pettit <i onclick="map.setView( [42.51880, -78.99240], 17, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, who named some nearby conductors and stationmasters. </p>
+
+<p>Still another source is a list of officers and committee leaders at local meetings of the anti-slavery society. </p>
+
+<p>The mission of this database is to place these people on the map, attempting to comprehend and honor their work. It is especially rewarding to find names that appear in more than one of the primary sources. An example is Benjamin Vincent <i onclick="map.setView( [42.348400000000, -79.135600000000], 17, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+ himself, who also appears in the <a href="http://www.mcclurgmuseum.org/collection/archives/elial_t_foote_papers/elial_t_foote_papers.html">Foote papers</a>. Other examples are Rev. A. P. Hawley <i onclick="map.setView( [42.5096366, -78.6671345], 17, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, Rev. S. G. Orton <i onclick="map.setView( [42.285158211056, -79.670196168876], 17, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, C. O. Matthews <i onclick="map.setView( [42.213325867096, -79.223613732314], 17, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, Thomas Danforth <i onclick="map.setView( [42.313972768556, -79.541037075972], 17, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, Havens Brigham <i onclick="map.setView( [42.446645372399, -79.334222667671], 17, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, and Abner Hazeltine <i onclick="map.setView( [42.091773866383, -79.234814637160], 17, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, who all appear not only in <a href="http://www.mcclurgmuseum.org/collection/archives/elial_t_foote_papers/elial_t_foote_papers.html">the Foote papers</a>, but also in the published minutes of the county anti-slavery meeting of 1839.”</p>
+
+<p>If you have information related to the Underground Railroad that could be used on our map, get in touch with us: support@orbitist.com</p>
+
+		
+		
 	<!-- Sharers -->
 		<div class="sharers">
-			<a href="http://twitter.com/share?url=/2014/07/09/talkie-test&text=Talkie Test" target="_blank"><span class="fa fa-twitter"></span></a>&nbsp;<a href="http://www.facebook.com/sharer.php?u=/2014/07/09/talkie-test" target="_blank""><span class="fa fa-facebook-square"></span></a>
+			<a href="http://twitter.com/share?url=/intro&text=Intro" target="_blank"><span class="fa fa-twitter"></span></a>&nbsp;<a href="http://www.facebook.com/sharer.php?u=/intro" target="_blank""><span class="fa fa-facebook-square"></span></a>
 		</div>
 	<!-- Sources -->
 		
@@ -135,36 +166,33 @@
 		
 <!-- Sidr -->		
 <div id="sidr">
-  <a href="/"><div class="orbitist">ORBITIST</div></a>
+  <a href=""><div class="orbitist">UGRR Orbitist</div></a>
   <ul>
   	
   	
-    
   	
+    <li><a href="/intro">Intro</a></li>
     
-  	
-    
-  	
-    
-  	
-    
-  	
-    
-  	
-    
-  	
-    
-  	
     
   	
   	
-    <li><a href="/2014/05/13/about-orbitist">About Orbitist</a></li>
+    <li><a href="/four-refugees">Four refugees</a></li>
+    
+    
+  	
+  	
+    <li><a href="/joseph-mary-james">Joseph, Mary, and James Norton</a></li>
+    
+    
+  	
+  	
+    <li><a href="/h-williams">Harrison Williams</a></li>
     
     
   </ul>
   <div class="footerlinks">
   <a href="/2014/05/13/about-orbitist/">About</a> | <a href="/pages/contact.html">Contact</a> | <a href="/pages/help.html">Help</a><br>
-  <p><a href="http://api.orbitist.com">Log in</a></p>
+
   <p><a href="http://www.twitter.com/theorbitist"><span class="fa fa-twitter"></a></span>&nbsp;<a href="https://www.facebook.com/Orbitist"><span class="fa fa-facebook"></span></a></p>
   &copy; Orbitist
   </div><!-- footerlinks -->
@@ -182,13 +210,13 @@
 
     <!-- Mapbox baselayer and Tilemill tiles -->
     <script>
-        var map = L.mapbox.map('map', 'orbitist.ie90k9cc', {
+        var map = L.mapbox.map('map', 'orbitist.ina586ah', {
     		tileLayer: {
         		detectRetina: true,
         		closeButton: false,
         		maxZoom: 19
     		}
-		}).setView([0, 0], 3);
+		}).setView([42.293564192170095, -79.365234375], 10);
 		var layer = L.mapbox.tileLayer('', {
     		detectRetina: true,
                 maxZoom: 19
@@ -199,7 +227,7 @@
 
 	
 <!-- Custom JS file -->
-	<script src="http://orbitist.s3.amazonaws.com/2014/07-talkie-test/custom.js"></script>
+	<script src="http://orbitist.s3.amazonaws.com/2014/07-ugrr/custom.js"></script>
 
 	
 <!-- Orbitist API GeoJSON layer -->
@@ -301,7 +329,7 @@ $('#maptoggle').tooltip('show')
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-50308061-1', 'orbitist.com');
+  ga('create', '', 'orbitist.com/ugrr');
   ga('send', 'pageview');
 
 	</script>
