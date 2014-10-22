@@ -22,6 +22,9 @@ On the 12th or 13th of January in 1851, Williams had escaped from his owner Dr. 
 
 It was on the morning of September 30 that the southerners kidnapped Williams from the Storum farm and rushed him to Buffalo. The trial was in Federal court the next day. By October 2, Williams was on a train heading back to slavery in Virginia under the custody of a U.S. Marshal.
 
+<small>Illustration 2:</small>
+<a href="http://orbitist.s3.amazonaws.com/ugrr/4-harrison-williams/Illustration2.jpg" data-lightbox="williams-story"><img src="http://orbitist.s3.amazonaws.com/ugrr/4-harrison-williams/Illustration2.jpg"></a>
+
 The story of the trial appeared in the New York Times (Illustration 2) and in the Buffalo Commercial Advertiser on October 2, and follow-ups appeared in the Buffalo Daily Courier, the Buffalo Morning Express, and the Jamestown Journal on October 3. The Buffalo accounts differed slightly from one another, depending upon whether or not the paper’s editor was an anti-slavery man. The Commercial Advertiser and the Buffalo Morning Express were sympathetic toward Williams; the Buffalo Daily Courier was sympathetic toward the court.
 
 There are differences among the other accounts as well. For example, the Jamestown account said that Williams had been working in southern Chautauqua County for the African American farmer Lewis (or Nevis) Clark(e), a relative of Storum.
