@@ -15,7 +15,6 @@ maxZoom: "22"
 customjs: "http://orbitist.s3.amazonaws.com/2014/07-ugrr/custom.js"
 image: "http://orbitist.s3.amazonaws.com/ugrr/img/top-story/fourrefugees.jpg"
 ---
-
 In October 1851, slave catchers appeared in southern Chautauqua County, recaptured the 19-year-old refugee Harrison Williams (also known as William Harrison and William Henry Harrison), transported him to court in Buffalo, and then returned him to slavery.
 
 On the 12th or 13th of January in 1851, Williams had escaped from his owner Dr. N. D. Parran (also spelled Perren, Perrin, and Parron) in Hardy County, VA. Williams eventually found refuge at the farm of William Storum {% include cvi %}[42.013782, -79.32585], 14{% include cvo %}, a free African American who lived with his family in the Town of Busti, south of Jamestown near the Pennsylvania State Line.
@@ -49,3 +48,5 @@ However, shortly after Shankland’s article appeared in the Jamestown Saturday 
 “Lewis Clark, better known in the play of ‘Uncle Tom’s Cabin’ as Geo. Harris, was a noted Abolition lecturer, a slave, and brother-in-law of Henry Storum. He was censured unjustly at the time by pro-slavery men for cowardice in not helping to save Harrison, but as soon as he could get his arms in condition he mounted his horse and followed the slave-holders, and was sitting on his horse in Jamestown exciting the people to action, when Pratt and Blodgett arrived in the city. The late Heaman Wodard, then a young boat hand on Lake Erie, happened to be in Buffalo and helped to organize a mob to release Harrison, but the officers, knowing they were protected by the fugitive slave law, were encouraged to help return Harrison to his Virginia master. Two of the seven slaves had previously returned to Virginia against the wishes of their comrades to help their wives escape, and it was afterwards learned that they were captured and whipped until they confessed where Harrison and the others were located.
 
 “The other four slaves were concealed on Lanning Hill, then owned by Seth McDaniels {% include cvi %}[41.954734, -79.2739], 14{% include cvo %}, for several days, and fed by their friends. Those who saw them said they were well fortified on the hay mow with clubs and stones, and meant to fight to a finish. When they decided to make their way toward the north star, Mrs. Pratt cooked them a midnight meal, and sent them on their way rejoicing. They went to Beaver Dam, Pa., were secreted by a wealthy farmer—William Gray {% include cvi %}[41.9262, -79.7496], 14{% include cvo %}—who delivered them on a boat at Erie, which landed them safely in Canada.”
+
+You can read the entire Harrison Williams story [here](http://www.co.chautauqua.ny.us/DocumentCenter/Home/View/1301).

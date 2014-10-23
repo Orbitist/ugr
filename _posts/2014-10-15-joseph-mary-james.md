@@ -46,4 +46,6 @@ Finally, there is a fifth letter in the [Foote papers](http://www.mcclurgmuseum.
  
 According to Pettit, the Norton family settled in Syracuse and enjoyed a comfortable living there until late in 1851, when Norton participated in the “Jerry Rescue,” an attempt to free another refugee who was about to be sent back to slavery under the Fugitive Slave Law. In the melee, Pettit said, Norton struck a marshal with a crow bar, breaking his arm. At that point, Norton decided that he and his family would be safer in Canada. Pettit said, “He settled in Toronto, where he was respected as a citizen, and took a great interest in the education of his family, and in promoting the best interests of fugitives who were constantly arriving there.”
 
+You can read the entire Joseph, Mary, and James story [here](http://www.co.chautauqua.ny.us/DocumentCenter/Home/View/1302).
+
 ### Continue to [Harrison Williams]({{ site.baseurl }}/h-williams/)
