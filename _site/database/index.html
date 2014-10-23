@@ -2,8 +2,8 @@
 <html lang="en">
 	<head>
 	<meta charset="utf-8">
-    	<title>UGRR Orbitist | Contact</title>
-    	<meta name="description" content="Get in touch with the Orbitist.">
+    	<title>UGRR Orbitist | Browse names</title>
+    	
     	<meta name="author" content="Orbitist Support">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     	
@@ -11,10 +11,10 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@TheOrbitist">
 	
-	<meta name="twitter:creator" content="@">
-	<meta name="twitter:title" content="Contact">
-	<meta name="twitter:description" content="Get in touch with the Orbitist.">
-	<meta name="twitter:image:src" content="">
+	<meta name="twitter:creator" content="@nicholas_gunner">
+	<meta name="twitter:title" content="Browse names">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:image:src" content="http://orbitist.s3.amazonaws.com/2014/07-ugrr/ugrr.jpg">
     
 	<!-- Shortcut icon -->
 	<link rel="shortcut icon" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
@@ -74,31 +74,67 @@
 	<body>
 
 		
-		<!-- Logo -->		
+		<!-- Logo -->	
 <a id="sidr-menu" href="#sidr">
 	<img class="logooverlay" src="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
 </a>
 
-	<div class="topview">
-	<div class="topoverlay">
-	</div><!-- topoverlay -->
-	<div class="toptitle">
-		<div class="orbitist">Contact</div>
-	</div><!-- toptitle -->
-<img class="img-responsive" src="http://orbitist.s3.amazonaws.com/_toplevel/images/pages/contact.jpg">
-</div><!-- topview -->
 
-<div class="container">
-	<div class="col-md-8 col-md-offset-2" style="margin-top: 25px;">
-		<p>At the Orbitist, we believe in collaboration. We want your help making the best maps possible. Pitch us your story ideas, tell us how we can be better, inquire about partnering with us, or just say hi!</p>
-		<p>email:&nbsp;<a href="mailto:support@orbitist.com">support@orbitist.com</a></p>
-		<p>follow:&nbsp;<a href="http://www.twitter.com/theorbitist"><span class="fa fa-twitter"></a></span>&nbsp;<a href="https://www.facebook.com/Orbitist"><span class="fa fa-facebook"></span></a></p>
-	</div><!-- col-md-6 -->
-</div><!-- container -->
+<!-- Maptoggle -->
+<button type="button" id="maptoggle" class="btn btn-default maptoggle" data-toggle="tooltip" title="Toggle story" data-placement="left"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
+
+<!-- map -->
+<div class="map" id="map"></div>
+
+<!-- Sidepanel -->
+<div id="sidepanel">
+	<div class="topstory">
+		<div class="topstorytext">
+			
+			<div class="topstorytitle">Browse names</div><!-- topstorytitle -->
+			<div class="topstorydescription"></div><!-- topstorydescription -->
+		</div><!-- topstorytext -->
+		<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
+		<img class="img-responsive" src="http://orbitist.s3.amazonaws.com/2014/07-ugrr/ugrr.jpg">
+	</div><!-- topstory -->
+	
+	<div class="sidebarcontent">
+		<!-- Author by line -->
+		
+      	   
+ 		<div class="author">By <a href="http://www.twitter.com/nicholas_gunner">Nicholas Gunner</a></div>
+ 		
+		<div style="width: 100%; height: 4000px; overflow: hidden">
+<iframe width="100%" height="4200px" frameborder="0" scrolling="no" style="position:relative; z-index:100; clip:rect(100px,0px,0px,0px); top:-240px; left: 0px;" src="http://ugrr.orbitist.com/grid-no-links"></iframe>
+</div>
+
+		
+		
+	<!-- Sharers -->
+		<div class="sharers">
+			<a href="http://twitter.com/share?url=/database&text=Browse names" target="_blank"><span class="fa fa-twitter"></span></a>&nbsp;<a href="http://www.facebook.com/sharer.php?u=/database" target="_blank""><span class="fa fa-facebook-square"></span></a>
+		</div>
+	<!-- Sources -->
+		
+	<!-- Author block -->
+      	   
+ 		<div class="authorblock">
+ 			<table>
+ 				<tr>
+ 					<td>
+      						<img style="width:75px; height:75px;" src="http://orbitist.s3.amazonaws.com/_toplevel/images/profile-images/ngunner.jpg" class="img-circle">
+    					</td>
+    					<td>
+    						<h4>Nicholas Gunner<br><small><a href="http://www.twitter.com/nicholas_gunner">@nicholas_gunner</a></small></h4>
+    					</td>
+    				</tr>
+    			</table>
+		</div><!-- authorblock -->
+		
+	</div><!-- sidebarcontent -->
+</div><!-- sidepanel -->
 
 
-<!-- jQuery needed to be specified with pages-->
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
 		
 <!-- Sidr -->		
@@ -152,16 +188,16 @@
 
     <!-- Mapbox baselayer and Tilemill tiles -->
     <script>
-        var map = L.mapbox.map('map', '', {
+        var map = L.mapbox.map('map', 'orbitist.ina586ah', {
     		tileLayer: {
         		detectRetina: true,
         		closeButton: false,
-        		maxZoom: 
+        		maxZoom: 19
     		}
-		}).setView([, ], );
+		}).setView([42.293564192170095, -79.365234375], 8);
 		var layer = L.mapbox.tileLayer('', {
     		detectRetina: true,
-                maxZoom: 
+                maxZoom: 19
 		}).addTo(map);
 	</script>
      
@@ -169,7 +205,7 @@
 
 	
 <!-- Custom JS file -->
-	<script src=""></script>
+	<script src="http://orbitist.s3.amazonaws.com/2014/07-ugrr/custom.js"></script>
 
 	
 <!-- Orbitist API GeoJSON layer -->
