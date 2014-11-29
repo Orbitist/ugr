@@ -12,7 +12,7 @@ latitude: "42.293564192170095"
 longitude: "-79.365234375"
 zoom: "9"
 maxZoom: "22"
-customjs: "http://orbitist.s3.amazonaws.com/2014/07-ugrr/custom.js"
+customjs: "http://orbitist.s3.amazonaws.com/ugrr/custom.js"
 image: "http://orbitist.s3.amazonaws.com/ugrr/img/top-story/fourrefugees.jpg"
 ---
 
