@@ -6,15 +6,16 @@ listed: true
 sponsored: false
 comments: false
 basemap: orbitist.ie90k9cc
-description: 
+description: null
 author: dshepard
 latitude: "42.293564192170095"
 longitude: "-79.365234375"
 zoom: "9"
 maxZoom: "22"
-customjs: "http://orbitist.s3.amazonaws.com/2014/07-ugrr/custom.js"
+customjs: "http://orbitist.s3.amazonaws.com/ugrr/custom.js"
 image: "http://orbitist.s3.amazonaws.com/ugrr/img/top-story/fourrefugees.jpg"
 ---
+
 In October 1851, slave catchers appeared in southern Chautauqua County, recaptured the 19-year-old refugee Harrison Williams (also known as William Harrison and William Henry Harrison), transported him to court in Buffalo, and then returned him to slavery.
 
 On the 12th or 13th of January in 1851, Williams had escaped from his owner Dr. N. D. Parran (also spelled Perren, Perrin, and Parron) in Hardy County, VA. Williams eventually found refuge at the farm of William Storum {% include cvi %}[42.013782, -79.32585], 14{% include cvo %}, a free African American who lived with his family in the Town of Busti, south of Jamestown near the Pennsylvania State Line.
