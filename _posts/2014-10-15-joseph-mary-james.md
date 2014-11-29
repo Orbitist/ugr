@@ -1,20 +1,21 @@
 ---
 layout: post
 published: true
-title: Joseph, Mary, and James Norton
+title: "Joseph, Mary, and James Norton"
 listed: true
 sponsored: false
 comments: false
 basemap: orbitist.ie90k9cc
-description: 
+description: null
 author: dshepard
 latitude: "42.293564192170095"
 longitude: "-79.365234375"
 zoom: "9"
 maxZoom: "22"
-customjs: "http://orbitist.s3.amazonaws.com/2014/07-ugrr/custom.js"
+customjs: "http://orbitist.s3.amazonaws.com/ugrr/custom.js"
 image: "http://orbitist.s3.amazonaws.com/ugrr/img/top-story/fourrefugees.jpg"
 ---
+
 Joseph (Jo) Norton was a refugee from slavery in the mid-1840s. He lived, worked, and studied in various places in New York State. A group of abolitionists in Chautauqua County and Cattaraugus County were instrumental in helping Norton to purchase the freedom of his wife Mary and son James, who had been forced to remain in slavery for more than a year after his escape.
  
 One of Norton’s benefactors in both counties was Eber M. Pettit {% include cvi %}[42.51880, -78.9924], 14{% include cvo %}, who ran a UGRR station in Versailles (Cattaraugus County) NY, and whose father James Pettit {% include cvi %}[42.4493, -79.3531], 14{% include cvo %} ran a UGRR station in Fredonia (Chautauqua County) NY. Many years after the events occurred, Pettit wrote about Norton’s escape as part of a series of 1867 articles in the Fredonia (NY) Censor, which were published in an 1879 book. Correspondence found in the [Foote papers](http://www.mcclurgmuseum.org/collection/archives/elial_t_foote_papers/elial_t_foote_papers.html), the anti-slavery collection of Judge Elial T. Foote {% include cvi %}[42.09674, -79.23524], 19{% include cvo %}, verifies most of Pettit’s account of the purchase of freedom for Mary and James.
