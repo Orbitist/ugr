@@ -1,0 +1,30 @@
+{% if post.style == "fluid" %}
+<a name="{{ post.title | replace: ' ', '_' }}"></a>
+<div class="piece-image-fluid">
+	<div class="container-fluid">
+		<div class="piece-image-fluid-caption">
+			<div class="col-md-6 col-md-offset-3">
+				<h4>{{ post.title }}</h4>
+				<p>{{ post.description }}</p>
+			</div>
+		</div>
+		<div class="crop">
+			<a href="{{ post.src }}" data-lightbox="{{ post.title | replace: ' ', '_' }}" data-title="{{ post.description }}"><img src="{{ post.src }}" class="img-responsive" /></a>
+		</div>
+	</div>
+</div>
+{% else %}
+<a name="{{ post.title | replace: ' ', '_' }}"></a>
+<div class="piece-image">
+	<div class="container">
+		<div class="piece-image-top"></div>
+		<h4>{{ post.title }}</h4>
+		<div class="crop">
+			<a href="{{ post.src }}" data-lightbox="{{ post.title | replace: ' ', '_' }}" data-title="{{ post.description }}"><img src="{{ post.src }}" class="img-responsive" /></a>
+		</div>
+		<div class="col-md-8 col-md-offset-2">
+			<p>{{ post.description }}</p>
+		</div>
+	</div>
+</div>
+{% endif %}
