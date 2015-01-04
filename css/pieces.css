@@ -179,7 +179,7 @@ height: 650px;
 
 @media (max-width: 768px) {
 	.piece-map iframe {
-		height: 300px;
+		height: 400px;
 	}
 }	
 

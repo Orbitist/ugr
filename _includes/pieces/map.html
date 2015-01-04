@@ -5,7 +5,7 @@
 			<span class="fa fa-globe"></span>
 		</div>
 		<div class="col-md-10">
-			<h4>{{ post.title }}</h4>
+			<h4>{{ post.title }}{% if post.credit %}<br><small> by {{ post.credit }}</small>{% endif %}</h4>
 			<p>{{ post.description }}</p>
 		</div>
 		<div class="col-md-1 piece-map-right">
@@ -18,7 +18,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title" id="myModalLabel">{{ post.title }}{% if post.credit %}<small> by {{ post.credit }}</small>{% endif %}</h4>
+					<h4 class="modal-title" id="myModalLabel">{{ post.title }}</h4>
 		  		</div>
 				<iframe src="{{ post.src }}" frameborder="0" allowfullscreen></iframe>
 			</div>
