@@ -1,9 +1,9 @@
 ---
-layout: post
 piece: article
 published: true
 title: "Joseph, Mary, and James Norton"
 description:
+credit: Douglas H. Shepard
 ---
 
 Joseph (Jo) Norton was a refugee from slavery in the mid-1840s. He lived, worked, and studied in various places in New York State. A group of abolitionists in Chautauqua County and Cattaraugus County were instrumental in helping Norton to purchase the freedom of his wife Mary and son James, who had been forced to remain in slavery for more than a year after his escape.

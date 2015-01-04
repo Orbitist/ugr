@@ -3,7 +3,7 @@ piece: article
 published: true
 title: Intro
 description: An introduction to this research project.
-image: "http://orbitist.s3.amazonaws.com/2014/07-ugrr/ugrr.jpg"
+credit: Wendy Straight
 ---
 When conducting research into Chautauqua County’s Underground Railroad and America’s anti-slavery movement, one does not look for mythical tunnels, hidden rooms, or rings of trees.  Instead, the work is centered upon the people involved-- most of them native New Englanders and free African Americans. Together they built a vast and well populated network of activists, some working publically (above ground) and others behind the scenes (the “underground”). Some did both.
 

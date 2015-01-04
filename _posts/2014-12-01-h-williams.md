@@ -1,20 +1,9 @@
 ---
-layout: post
 piece: article
 published: true
 title: Harrison Williams
-listed: true
-sponsored: false
-comments: false
-basemap: orbitist.ie90k9cc
-description: null
-author: dshepard
-latitude: "42.293564192170095"
-longitude: "-79.365234375"
-zoom: "9"
-maxZoom: "22"
-customjs: "http://orbitist.s3.amazonaws.com/ugrr/custom.js"
-image: "http://orbitist.s3.amazonaws.com/ugrr/img/top-story/fourrefugees.jpg"
+description: 
+credit: Douglas H. Shepard
 ---
 
 In October 1851, slave catchers appeared in southern Chautauqua County, recaptured the 19-year-old refugee Harrison Williams (also known as William Harrison and William Henry Harrison), transported him to court in Buffalo, and then returned him to slavery.
