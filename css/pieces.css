@@ -185,6 +185,9 @@ height: 650px;
 	.piece-map .modal-lg {
 	width: 96%;
 	}
+	.piece-map .modal-dialog {
+	margin-top: 5px;
+	}
 	.piece-map iframe {
 		height: 470px;
 	}
