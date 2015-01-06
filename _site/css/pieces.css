@@ -5,6 +5,10 @@ position: relative;
 top: -70px;
 }
 
+.share-link {
+color: #999;
+font-size: 12px;
+}
 
 /***** PIECE ARTICLE *****/
 
