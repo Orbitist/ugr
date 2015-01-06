@@ -1,3 +1,12 @@
+/***** PIECE *****/
+a.anchor {
+display: block; 
+position: relative; 
+top: -70px; 
+visibility: hidden;
+}
+
+
 /***** PIECE ARTICLE *****/
 
 .piece-article {
