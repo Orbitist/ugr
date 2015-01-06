@@ -1,8 +1,8 @@
 ---
 piece: article
 published: true
-title: "Joseph, Mary, and James Norton"
-description:
+title: "Purchased freedom"
+description: The story of Joseph Mary and James Norton
 credit: Douglas H. Shepard
 ---
 
