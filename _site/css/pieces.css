@@ -10,6 +10,11 @@ color: #999;
 font-size: 12px;
 }
 
+.share-link:hover {
+color: black;
+font-size: 12px;
+}
+
 /***** PIECE ARTICLE *****/
 
 .piece-article {
