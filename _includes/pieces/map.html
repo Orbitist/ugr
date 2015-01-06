@@ -8,7 +8,6 @@
 			<div class="col-md-10">
 				<h4>{{ post.title }}{% if post.credit %}<br><small> by {{ post.credit }}</small>{% endif %}</h4>
 				<p>{{ post.description }}</p>
-				<div class="share-link"><span class="fa fa-link"></span> {{ site.baseurl }}/#{{ post.title | replace: ' ', '_' }}</div>
 			</div>
 			<div class="col-md-1 piece-map-right">
 				<span class="fa fa-angle-right"></span>
@@ -23,6 +22,7 @@
 						<h4 class="modal-title" id="myModalLabel">{{ post.title }}</h4>
 					</div>
 					<iframe data-src="{{ post.src }}" src="about:blank" onload="lzld(this)" frameborder="0" allowfullscreen></iframe>
+					<div class="share-link"><span class="fa fa-link"></span> {{ site.baseurl }}/#{{ post.title | replace: ' ', '_' }}</div>
 				</div>
 			</div>
 		</div>
