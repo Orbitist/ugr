@@ -2,7 +2,7 @@
 <div class="piece">
 	<div class="container thumbnail">
 		<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".{{ post.url | replace: '/', '' }}"><span class="fa fa-globe"></span> {{ post.title }}</h3></button>
-		<div class="share-link"><span class="fa fa-link"></span> {{ site.baseurl }}/#{{ post.url | replace: '/', '' }}</div>
+		{% include elements/share-link.html %}
 	</div><!-- container -->
 
 	<!-- Modal -->
