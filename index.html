@@ -18,6 +18,8 @@ description: New research reveals hundreds of untold stories from this importand
 			{% include pieces/database.html %}
 		{% elsif post.piece == "link" %}
 			{% include pieces/link.html %}
+		{% elsif post.piece == "person" %}
+			{% include pieces/person.html %}
 		{% endif %}
 	{% endif %}
 {% endfor %}

@@ -34,6 +34,8 @@ layout: default
 									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-database"></span> {{ post.title }}</a></li>
 								{% elsif post.piece == "link" %}
 									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-link"></span> {{ post.title }}</a></li>
+								{% elsif post.piece == "person" %}
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-user"></span> {{ post.title }}</a></li>
 								{% endif %}
 							{% endif %}
 						{% endfor %}
