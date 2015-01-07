@@ -1,5 +1,5 @@
 {% if post.style == "fluid" %}
-<a class="anchor" name="{{ post.title | replace: ' ', '_' }}"></a>
+<a class="anchor" name="{{ post.url | replace: '/', '' }}"></a>
 <div class="piece">
 	<div class="piece-image-fluid">
 		<div class="container-fluid">
@@ -10,25 +10,25 @@
 				</div>
 			</div>
 			<div class="crop">
-				<a href="{{ post.src }}" data-lightbox="{{ post.title | replace: ' ', '_' }}" data-title="{{ post.description }} {{ post.credit }}"><img class="img-responsive" data-src="{{ post.src }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)" /></a>
+				<a href="{{ post.src }}" data-lightbox="{{ post.url | replace: '/', '' }}" data-title="{{ post.description }} {{ post.credit }}"><img class="img-responsive" data-src="{{ post.src }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)" /></a>
 			</div>
-			<div class="share-link"><span class="fa fa-link"></span> {{ site.baseurl }}/#{{ post.title | replace: ' ', '_' }}</div>
+			<div class="share-link"><span class="fa fa-link"></span> {{ site.baseurl }}/#{{ post.url | replace: '/', '' }}</div>
 		</div>
 	</div>
 </div><!-- piece -->
 {% else %}
-<a class="anchor" name="{{ post.title | replace: ' ', '_' }}"></a>
+<a class="anchor" name="{{ post.url | replace: '/', '' }}"></a>
 <div class="piece">
 	<div class="piece-image">
 		<div class="container">
 			<div class="piece-image-top"></div>
 			<h4>{{ post.title }}</h4>
 			<div class="crop">
-				<a href="{{ post.src }}" data-lightbox="{{ post.title | replace: ' ', '_' }}" data-title="{{ post.description }} {{ post.credit }}"><img class="img-responsive" data-src="{{ post.src }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)" /></a>
+				<a href="{{ post.src }}" data-lightbox="{{ post.url | replace: '/', '' }}" data-title="{{ post.description }} {{ post.credit }}"><img class="img-responsive" data-src="{{ post.src }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)" /></a>
 			</div>
 			<div class="col-md-8 col-md-offset-2">
 				<p>{{ post.description }}</p>
-				<div class="share-link"><span class="fa fa-link"></span> {{ site.baseurl }}/#{{ post.title | replace: ' ', '_' }}</div>
+				<div class="share-link"><span class="fa fa-link"></span> {{ site.baseurl }}/#{{ post.url | replace: '/', '' }}</div>
 			</div>
 		</div>
 	</div>

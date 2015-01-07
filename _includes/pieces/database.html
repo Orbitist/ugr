@@ -1,12 +1,12 @@
-<a class="anchor" name="{{ post.title | replace: ' ', '_' }}"></a>
+<a class="anchor" name="{{ post.url | replace: '/', '' }}"></a>
 <div class="piece">
 	<div class="container thumbnail">
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".{{ post.title | replace: ' ', '_' }}"><span class="fa fa-globe"></span> {{ post.title }}</h3></button>
-		<div class="share-link"><span class="fa fa-link"></span> {{ site.baseurl }}/#{{ post.title | replace: ' ', '_' }}</div>
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".{{ post.url | replace: '/', '' }}"><span class="fa fa-globe"></span> {{ post.title }}</h3></button>
+		<div class="share-link"><span class="fa fa-link"></span> {{ site.baseurl }}/#{{ post.url | replace: '/', '' }}</div>
 	</div><!-- container -->
 
 	<!-- Modal -->
-	<div class="modal fade {{ post.title | replace: ' ', '_' }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal fade {{ post.url | replace: '/', '' }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-lg">
 		<div class="modal-content">
 		<div class="modal-header">

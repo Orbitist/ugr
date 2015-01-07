@@ -1,7 +1,7 @@
-<a class="anchor" name="{{ post.title | replace: ' ', '_' }}"></a>
+<a class="anchor" name="{{ post.url | replace: '/', '' }}"></a>
 <div class="piece">
 	<div class="piece-map">
-		<div class="container" data-toggle="modal" data-target=".{{ post.title | replace: ' ', '_' }}">
+		<div class="container" data-toggle="modal" data-target=".{{ post.url | replace: '/', '' }}">
 			<div class="col-md-1 piece-map-left">
 				<span class="fa fa-globe"></span>
 			</div>
@@ -14,7 +14,7 @@
 			</div>
 		</div><!-- container -->
 		<!-- Modal -->
-		<div class="modal fade {{ post.title | replace: ' ', '_' }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal fade {{ post.url | replace: '/', '' }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-lg">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -22,7 +22,7 @@
 						<h4 class="modal-title" id="myModalLabel">{{ post.title }}</h4>
 					</div>
 					<iframe data-src="{{ post.src }}" src="about:blank" onload="lzld(this)" frameborder="0" allowfullscreen></iframe>
-					<div class="share-link"><span class="fa fa-link"></span> {{ site.baseurl }}/#{{ post.title | replace: ' ', '_' }}</div>
+					<div class="share-link"><span class="fa fa-link"></span> {{ site.baseurl }}/#{{ post.url | replace: '/', '' }}</div>
 				</div>
 			</div>
 		</div>

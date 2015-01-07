@@ -1,4 +1,4 @@
-<a class="anchor" name="{{ post.title | replace: ' ', '_' }}"></a>
+<a class="anchor" name="{{ post.url | replace: '/', '' }}"></a>
 <div class="piece">
 	<div class="piece-article">
 		<div class="container">
@@ -8,7 +8,7 @@
 					{% if post.credit %}<h4><small>by {{ post.credit }}</small></h4>{% endif %}
 					{% if post.description %}<p class="lead">{{ post.description }}</p>{% endif %}
 					{{ post.content }}
-					<div class="share-link"><span class="fa fa-link"></span> {{ site.baseurl }}/#{{ post.title | replace: ' ', '_' }}</div>
+					<div class="share-link"><span class="fa fa-link"></span> {{ site.baseurl }}/#{{ post.url | replace: '/', '' }}</div>
 				</div><!-- piece-article-content -->
 			</div><!-- col-md-8 col-md-offset-2 -->
 		</div><!-- container -->

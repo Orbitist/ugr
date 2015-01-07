@@ -23,17 +23,17 @@ layout: default
 						{% for post in site.posts %}
 							{% if post.published %}
 								{% if post.piece == "article" %}
-									<li><a href="#{{ post.title | replace: ' ', '_' }}"><span class="fa fa-file-text-o"></span> {{ post.title }}</a></li>
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-file-text-o"></span> {{ post.title }}</a></li>
 								{% elsif post.piece == "image" %}
-									<li><a href="#{{ post.title | replace: ' ', '_' }}"><span class="fa fa-picture-o"></span> {{ post.title }}</a></li>
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-picture-o"></span> {{ post.title }}</a></li>
 								{% elsif post.piece == "video" %}
-									<li><a href="#{{ post.title | replace: ' ', '_' }}"><span class="fa fa-camera-video"></span> {{ post.title }}</a></li>
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-camera-video"></span> {{ post.title }}</a></li>
 								{% elsif post.piece == "map" %}
-									<li><a href="#{{ post.title | replace: ' ', '_' }}"><span class="fa fa-globe"></span> {{ post.title }}</a></li>
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-globe"></span> {{ post.title }}</a></li>
 								{% elsif post.piece == "database" %}
-									<li><a href="#{{ post.title | replace: ' ', '_' }}"><span class="fa fa-database"></span> {{ post.title }}</a></li>
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-database"></span> {{ post.title }}</a></li>
 								{% elsif post.piece == "link" %}
-									<li><a href="#{{ post.title | replace: ' ', '_' }}"><span class="fa fa-link"></span> {{ post.title }}</a></li>
+									<li><a href="#{{ post.url | replace: '/', '' }}"><span class="fa fa-link"></span> {{ post.title }}</a></li>
 								{% endif %}
 							{% endif %}
 						{% endfor %}
