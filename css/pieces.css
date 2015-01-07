@@ -343,7 +343,7 @@ height: 650px;
 	.piece-database .modal-dialog {
 	margin-top: 5px;
 	}
-	.piece-map iframe {
+	.piece-database iframe {
 		height: 470px;
 	}
 }	
