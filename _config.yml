@@ -12,9 +12,9 @@ author :
   twitter : TheOrbitist
   web : http://www.orbitist.com
 
-production_url : orbitist.com/ugr
+production_url : labs.orbitist.com/ugr
 
-baseurl : http://orbitist.com/ugr
+baseurl : http://labs.orbitist.com/ugr
         
 analytics :
   google : 
